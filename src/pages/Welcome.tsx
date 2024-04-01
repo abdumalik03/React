@@ -10,21 +10,20 @@ const Welcome = () => {
           <Heading/>
           {/*<h1>Добро пожаловать в квиз от лучшего учебного центра</h1>*/}
           <form className="welcome__form">
-            
-            <label className="input-wrapper" htmlFor="username">
-              Ваше имя
-              <AppInput/>
-              {/*<input
+            <AppInput/>
+            {/*<label className="input-wrapper" htmlFor="username">
+              Ваше имя 
+              <input
                 required
                 type="text"
                 name="username"
                 id="username"
                 placeholder="Ваш ответ"
-              />*/}
+              />
               <span id="error-message">
                 Введите имя
               </span>
-            </label>
+             </label>*/}
             <label className="input-wrapper" htmlFor="phone">
               Ваш номер
               <input
